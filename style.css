@@ -1,0 +1,159 @@
+/** Grid system - https://www.w3schools.com/css/css_rwd_grid.asp **/
+* {
+	box-sizing: border-box;
+	font-family: "arial black";
+}
+
+/**body {
+  background-color: lightblue;
+}**/
+
+h1 {
+  color: gray;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+  margin: 70px;
+}
+
+ul {
+  font-family: verdana;
+  font-size: 20px;
+  margin: 70px;
+}
+
+
+.responsive {
+	width: 100%;
+	max-width: 1000px;
+	height: auto;
+}
+
+h3 {
+float: right;
+
+}
+
+
+
+.highlight {
+    color: orangered;
+    font-weight: bold;
+}
+
+.important {
+    color: black;
+    font-weight: bold;
+text-align: center;
+}
+
+#div_1 {  
+font-family: verdana;
+font-size: 20px;
+}	 
+
+
+.right {
+float:right;
+}
+
+
+
+
+.overflow {
+  overflow: auto;
+}
+
+
+
+.topnav {
+  overflow: hidden;
+  background-color: black;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: white;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: red;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* For mobile phones: */
+[class*="col-"] {
+	width: 100%;
+}
+ 
+  @media only screen and (min-width: 768px) {
+	/* For desktop: */
+	.col-1 {width: 8.33%;}
+	.col-2 {width: 16.66%;}
+	.col-47 {width: 16.66%;}
+	.col-3 {width: 25%;}
+	.col-4 {width: 33.33%;}
+	.col-5 {width: 41.66%;}
+	.col-6 {width: 50%;}
+	.col-7 {width: 58.33%;}
+	.col-8 {width: 66.66%;}
+	.col-9 {width: 75%;}
+	.col-10 {width: 83.33%;}
+	.col-11 {width: 91.66%;}
+	.col-12 {width: 100%;}
+}
+
+[class*="col-"] {
+
+	padding: 15px;
+	<!-- border: 1px solid red; -->
+}
+
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+/** Image - https://www.w3schools.com/css/css_rwd_grid.asp **/   
+
+
+/** Overflow (for tables) - https://www.w3schools.com/howto/howto_css_table_responsive.asp **/
+.overflow {
+	overflow-x:auto;
+}
