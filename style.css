@@ -84,8 +84,8 @@
 
 
 
-.overflow {
-  overflow: auto;
+.overflowww {
+  overflow-x: hidden;
 }
 
 
@@ -127,6 +127,6 @@
 
 
 /** Overflow (for tables) - https://www.w3schools.com/howto/howto_css_table_responsive.asp **/
-.overflow {
+/**.overflow {
 	overflow-x:auto;
 } */
